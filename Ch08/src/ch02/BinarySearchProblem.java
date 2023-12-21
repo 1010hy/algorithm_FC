@@ -1,4 +1,5 @@
 package ch02;
+
 import java.util.Scanner;
 
 public class BinarySearchProblem { // 이진탐색, Binary Search
@@ -8,13 +9,12 @@ public class BinarySearchProblem { // 이진탐색, Binary Search
 
 		Scanner sc = new Scanner(System.in);
 		System.out.println("숫자를 입력하세요 : ");
-		int target = sc.nextInt();		
-		System.out.println(target);
-//		int target = 12;
+		int target = sc.nextInt();
+//		int target = 83;
 
 		int left = 0; // left 위치는 첫번째
 		int right = numbers.length - 1; // right 위치는 맨 마지막, 즉 9
-		int mid = (left + right) / 2;	// 가운데부터 찾음. 즉 4
+		int mid = (left + right) / 2; // 가운데부터 찾음. 즉 4
 
 		int temp = numbers[mid]; // 비교할 내용은 해당 배열의 값, 중간부터 search, 즉 54
 		boolean find = false;
@@ -23,27 +23,27 @@ public class BinarySearchProblem { // 이진탐색, Binary Search
 
 			if (target == temp) {
 				find = true;
-				break;			//while문 빠져나감
+				break; // while문 빠져나감
 			}
-			
+
 			else if (target < temp) {
-				right = mid -1;
+				right = mid - 1;
 			}
-			
-			else  {
-				left = mid +1;
+
+			else {
+				left = mid + 1;
 			}
-			
-			//바뀐 값 다시 조정
-			mid = (left + right) / 2;	
+
+			// 바뀐 값 다시 조정
+			mid = (left + right) / 2;
 			temp = numbers[mid];
-			System.out.println(target + "의 위치는 " + (mid+1) + "입니다.");
 		}
 
-		if (find == false) {
+		if (find == true) {
+			System.out.println(target + "의 위치는 " + (mid + 1) + "입니다.");
+		} else {
 			System.out.println(target + "의 위치는 없습니다.");
 		}
-		
 	}
 
 }
