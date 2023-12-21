@@ -18,4 +18,5 @@
 
 
 4) 결과
-- 
+- ![image](https://github.com/1010hy/algorithm/assets/67892327/b53890f9-ddff-4871-95cd-723272be1b16)
+- ![image](https://github.com/1010hy/algorithm/assets/67892327/68d39d7e-91ea-4399-83db-afa513348301)
