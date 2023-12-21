@@ -11,8 +11,8 @@
 - 가장 작은 수가 맨 위면 min heap(오름차순)
 - 가장 큰 수가 맨 위면 max heap(내림차순)
 - 힙 정렬은 binary tree(이진트리)이기 때문에 평균 수행 시간이 O(logN)이다.
-- parent가 자신의 child보다 작아야 한다.
-- 우선순위 queue를 구할 때 쓰여진다.(같은 부모의 child끼리는 비교하지 않는다.)
+- parent가 자신의 child보다 작아야 한다.(같은 부모의 child끼리는 비교하지 않는다.)
+- 우선순위 queue를 구할 때 쓰여진다.
 
 <힙 정렬 계산 순서(min heap 기준)>
 1. 일단 비교 숫자를 맨 밑으로 가정한 후
@@ -33,7 +33,9 @@
 
 출력 결과
 1. min heap
+   
 ![image](https://github.com/1010hy/algorithm/assets/67892327/5d9b7f83-2252-4cfe-8ab0-e7599815af42)
 
 2. max heap
+   
 ![image](https://github.com/1010hy/algorithm/assets/67892327/43cc4525-64c3-4628-b916-7f3de9d2d7a7)
