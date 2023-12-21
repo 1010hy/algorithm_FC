@@ -11,3 +11,10 @@ Insertion Sort(삽입정렬) 구현해보기
 - 두 번째 요소부터 바로 앞 요소와 비교하며 한칸씩 앞으로 이동. 그렇게 insert 될 위치를 찾아가며 정렬하는 알고리즘
 - 이동횟수가 n번이고 이것이 n번 수행되기 때문에 시간복잡도는 n^2
 ![image](https://github.com/1010hy/algorithm/assets/67892327/97c636b7-6b38-4b18-afd5-bd712942321e)
+
+결과
+1) InsertionSort 출력 결과
+![image](https://github.com/1010hy/algorithm/assets/67892327/15b10ebf-53b1-4b52-81df-bb64e854446e)
+
+2) InsertionSortExample 출력 결과
+![image](https://github.com/1010hy/algorithm/assets/67892327/a71d14e1-70db-46ac-92e5-446dc3b692ac)
