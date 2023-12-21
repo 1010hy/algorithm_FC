@@ -17,6 +17,6 @@ Insertion Sort(삽입정렬) 구현해보기
    
 ![image](https://github.com/1010hy/algorithm/assets/67892327/15b10ebf-53b1-4b52-81df-bb64e854446e)
 
-3) InsertionSortExample 출력 결과
+2) InsertionSortExample 출력 결과
    
 ![image](https://github.com/1010hy/algorithm/assets/67892327/a71d14e1-70db-46ac-92e5-446dc3b692ac)
