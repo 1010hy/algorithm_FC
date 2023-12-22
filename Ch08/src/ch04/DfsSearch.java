@@ -1,14 +1,12 @@
-package dfs;
+package ch04;
 
 import java.util.Stack;
-
-import graph.UndirectedGraph;
 
 public class DfsSearch {
 	int count;		
 	boolean[] visited;		
 	Stack<Integer> stack;
-	int[][] matrix;						// graph/UndirectedGraph 에서 matrix정보 가져옴
+	int[][] matrix;						// UndirectedGraph 에서 matrix정보 가져옴
 
 	public DfsSearch(int count) {
 		this.count = count;				//노드수만큼
@@ -52,7 +50,7 @@ public class DfsSearch {
 		graph.addEdges(4, 5, 1);
 		graph.addEdges(3, 7, 1);
 
-		//graph/UndirectedGraph 에서 matrix 가져와서 그래프 그림
+		//UndirectedGraph 에서 matrix 가져와서 그래프 그림
 		dfsSearch.matrix = graph.getMatrix();
 		dfsSearch.dfsTraversal();	//잘 찍히는지 검사
 

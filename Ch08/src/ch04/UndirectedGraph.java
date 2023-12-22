@@ -1,4 +1,4 @@
-package graph;
+package ch04;
 
 
 //그래프를 matrix로 표현하기
