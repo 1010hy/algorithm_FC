@@ -2,7 +2,7 @@
 
 그래프탐색
 
-![image](https://github.com/1010hy/algorithm/assets/67892327/de538611-0cdf-4de4-b6eb-f0825f725352){: width="100" height="100"}
+![image]{: width="100" height="100"}(https://github.com/1010hy/algorithm/assets/67892327/de538611-0cdf-4de4-b6eb-f0825f725352)
 
 동그라미가 노드, 선이 간선
 
