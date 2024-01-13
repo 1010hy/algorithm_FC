@@ -33,6 +33,10 @@ stack으로 구현
 *방문한 것은 표시  
 0 - 1 - 3 - 7 - 4 - 5 - 2 - 6 (왼쪽으로 돎)  
 0 - 2 - 6 - 5 - 4 - 1 - 3 - 7 (오른쪽으로 돎)  
+
+DfsSearch.java 출력결과  
+![image](https://github.com/1010hy/algorithm/assets/67892327/2b6697c7-0696-4b92-ba93-c0c8cfd8c15c)
+
  
 <BFS 너비 우선 탐색>  
 갈림길을 만나면 양쪽을 다 봄  
@@ -42,6 +46,10 @@ queue로 구현
 3,4는 1의 입장에서  
 5,6은 2의 입장에서  
 7은 3의 입장에서 들어감.  
+
+BfsSearch.java 출력결과  
+![image](https://github.com/1010hy/algorithm/assets/67892327/fdff229c-0a8f-4e91-9c38-17af51180adb)
+
 
 <stack 스텍>  
 후입선출
