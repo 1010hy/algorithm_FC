@@ -11,7 +11,7 @@ class MyGraph {
 		this.count = count;
 		vertexMatrix = new int[count][count];
 		distance = new int[count];
-		visited = new boolean[count];
+		visited = new boolean[count];	//거쳐간건 true, 기본값은 false
 
 	}
 
