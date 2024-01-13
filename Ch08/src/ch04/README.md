@@ -1,14 +1,14 @@
 [DFS(Depth - First Search)와 BFS(Breadth - First Search)]
 
-그래프탐색
+그래프탐색  
 
 ![image](https://github.com/1010hy/algorithm/assets/67892327/de538611-0cdf-4de4-b6eb-f0825f725352)
 
 동그라미가 노드, 선이 간선
 
 
-[2차원 배열로 표현하는 법]
-![image](https://github.com/1010hy/algorithm/assets/67892327/abf9204c-dfc2-4929-833d-6c5430c43493)
+[2차원 배열로 표현하는 법]  
+![image](https://github.com/1010hy/algorithm/assets/67892327/9d1b35db-9072-4cbe-a163-623e1928beb7)
 1. 언다이랙트 그래프(방향성이 없음)
 연결되면 1, 연결이 안돼있으면 0으로 표시, 언다이랙트 그래프는 시멘틱함.(대각선을 기준으로 동일)  
 
@@ -23,7 +23,7 @@
 <링크드 리스트>  
 0 -> 1 -> 2 -> ...  
 *weight가 있으면 하나의 클래스로 옆에 가중치까지 표시 가능  
-![image](https://github.com/1010hy/algorithm/assets/67892327/6d3baeb8-7aa9-40eb-8f4a-793aefacf784)
+![image](https://github.com/1010hy/algorithm/assets/67892327/bee987ea-2e70-42ac-a265-10cc163871eb)
 
 
 <DFS 깊이 우선 탐색>  
