@@ -3,7 +3,7 @@ package ch06;
 import ch06.Maze;
 import ch06.Robot;
 
-
+//실행하기
 public class MazeTest {
 
 	public static void main(String[] args) {

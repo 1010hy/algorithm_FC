@@ -1,5 +1,6 @@
 package ch06;
 
+//미로 정의
 public class Maze {
 
 	public int[][] myMaze ={

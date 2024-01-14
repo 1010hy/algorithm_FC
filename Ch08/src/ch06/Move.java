@@ -1,5 +1,6 @@
 package ch06;
 
+//움직이는 위치
 public class Move {
 
 	int direction=0;
