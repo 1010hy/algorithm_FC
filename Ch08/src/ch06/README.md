@@ -15,3 +15,6 @@
 간 길은 stack에 쌓임. 길이 막히면 stack에서 pop.  
 direction 정보는 간 곳을 저장하기 위해 씀.  
 exit가 동쪽이므로 동쪽부터 확인하면 좋음.  
+
+[출력 결과]
+![image](https://github.com/1010hy/algorithm/assets/67892327/2eff09c3-e2d7-413e-85a2-5831850c0ea6)
