@@ -14,15 +14,15 @@ public class Robot {
 	Maze maze = new Maze();
 
 	public int[][] DIRECTION_OFFSETS = {
-			{ 0, -1 }, 		//위쪽으로 이동. -1로 설정한 이유는 지도를 벗어나기 때문
-			{ 1, 0 }, 		//오른쪽으로 이동.
 			{ 0, 1 }, 		//아래쪽으로 이동.
+			{ 1, 0 },		//오른쪽으로 이동.
+			{ 0, -1 }, 		//위쪽으로 이동. -1로 설정한 이유는 지도를 벗어나기 때문
 			{ -1, 0 } 		//왼쪽으로 이동.
 	};
 
-	public static int NOTVISIT = 0; //길은 0
+	public static int NOTVISIT = 0; //방문을 안하면 0으로 표시
 	public static int WALL = 1;		//wall은 1
-	public static int VISIT = 2;
+	public static int VISIT = 2;	//방문한건 2로 표시
 	int[][] markArray = new int[8][8];
 
 	//출구 찾기
@@ -47,6 +47,8 @@ public class Robot {
 
 			while (isFound == false && direction < NUMDIRECTIONS) {
 
+				//만약 direction이 3인 경우 
+				//DIRECTION_OFFSETS[3][0]은 -1, [3][1]은 0이다.
 				int newX = x + DIRECTION_OFFSETS[direction][0];	
 				int newY = y + DIRECTION_OFFSETS[direction][1];	
 
@@ -65,11 +67,13 @@ public class Robot {
 					//도착한 경우
 					if (newX == endX && newY == endY) {
 						isFound = true;
-						newPosition.x = newX;
-						newPosition.y = newY;
-						newPosition.direction = 0;
-						stack.push(newPosition);
-						markArray[newY][newX] = VISIT;
+						//선생님 코드는 newPosition인스턴스를 사용하였는데 이게 있으면 (7,7)이 한번 더 출력됨..
+//						newPosition.x = newX;
+//						newPosition.y = newY;
+//						newPosition.direction = 0;
+//						stack.push(newPosition);
+//						markArray[newY][newX] = VISIT;
+						markArray[y][x] = VISIT;
 					}
 				} else
 					direction++;	//4면이 미로의 크기를 벗어나거나, 벽(1)이거나, visit한적이 있으면  while문을 빠져나서 방향 다시 탐색
