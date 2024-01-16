@@ -10,12 +10,10 @@ public class GreedyTest {
 		
 		for (int i = 0; i< coins.length; i++) {
 			count = 0;
-			count += price / coins[i];
-			price = price % coins[i]; 
+			count += price / coins[i];		//count는 몫
+			price = price % coins[i]; 		//price는 나머지
 			
 			System.out.println( coins[i] + "짜리 동전 " + count + "가 필요합니다.");
 		}
-		
 	}
-
 }
