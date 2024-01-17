@@ -13,3 +13,6 @@ ch06. [미로 찾기 문제](https://github.com/1010hy/algorithm/tree/main/Ch08/
 
 ch07. [피보나치 수열 문제](https://github.com/1010hy/algorithm/tree/main/Ch08/src/ch07)
 
+ch08. [여러 종류의 동전으로 가격 지불하는 문제(Greedy 알고리즘)](https://github.com/1010hy/algorithm/tree/main/Ch08/src/ch08)
+
+ch09. [경우의 수 문제 (Brute-Force Search)](https://github.com/1010hy/algorithm/tree/main/Ch08/src/ch09)
